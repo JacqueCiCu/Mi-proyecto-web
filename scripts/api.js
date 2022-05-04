@@ -1,4 +1,4 @@
-const contenedor = document.getElementById("contenido-principla");
+const contenedor = document.getElementById("contenido-principal");
 const url = "https://raw.githubusercontent.com/JacqueCiCu/Curso-FPW-API/master/base_datos.json";
 const uri ="https://github.com/JacqueCiCu/Curso-FPW-API/blob/master/"
 
