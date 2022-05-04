@@ -1,14 +1,14 @@
-body{
-font-family: 'League Spartan', sans-serif;
-margin: 0;
-font-size: 20px;
-color: white;
-background-color: #232C33;
-text-align: left;
+body {
+    font-family: 'League Spartan', sans-serif;
+    margin: 0;
+    font-size: 20px;
+    color: white;
+    background-color: #FF5733;
+    text-align: left;
 }
 
 #encabezado {
-    background-color: #A0C1D1;
+    background-color: #900C3F;
     color: black;
     padding: 5px 10%;
     border-bottom-style: solid;
@@ -16,7 +16,7 @@ text-align: left;
     border-bottom-width: 4px;
 }
 
-#redes-socoales-extra {
+#redes-sociales-extra {
     display: none;
 }
 
@@ -25,100 +25,94 @@ text-align: left;
         padding: 5px 5px;
     }
 }
-    @media screen and (max-width: 566px) {
-        #encabezado {
-            text-align: center;
-        }
-        #redes-sociales {
-            display: none;
-        }
-        #redes-sociales-extra {
-            display: block;
-        }
+@media screen and (max-width: 566px) {
+    #encabezado {
+        text-align: center;
     }
-
-    #encabezado a {
-        text-decoration: none;
-    }
-
-    #encabezado h1 {
-        display: inline-block;
-        margin: 0;
-    }
-
-    #logo {
-        width: 60px;
-        height: 60px;
-        margin-right: 30px;
-    }
-
     #redes-sociales {
-        float: right;
-        padding-top: 15px;
+        display: none;
     }
+#redes-sociales-extras {
+    display: block;
+}    
+}
 
-    #redes-sociales img, #redes-sociales-extra img {
-        width: 40px;
-        transition: 0,5s;
-    }
+#encabezado a {
+    text-decoration: none;
+}
 
-    #redes-sociales img:hover, #redes-sociales-extra img:hover {
-        filter: invert(100%);
-        transition: 0.25s;
-    }
+#encabezado h1 {
+    display: inline-block;
+    margin: 0;
+}
 
-    #redes-sociales-extra a {
-        text-decoration: none;
-        margin-right: 10px;
-        margin-left: 10px;
-    }
+#logo {
+    width: 90px;
+    height: 90px;
+    padding-top: 15px;
+}
 
-    div#redes-sociales a {
-        margin-left: 25px;
-    }
+#redes-sociales img, #redes-sociales-extra img {
+    width: 40px;
+    transition: 0.5s;
+}
 
-    #contenido-principal {
-        padding: 1em 15%;
-    }
+#redes-sociales img:hover, #redes-sociales-extra img:hover {
+    filter: invert(100%);
+    transition: 0.25s;
+}
 
-    #pie-pagina {
-        text-align:center;
-        padding: 20px 10%;
-        background-color: #A0C1D1;
-        color: black;
-        border-top-style: solid;
-        border-top-color: black;
+#redes-sociales-extra a {
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div#redes-sociales a {
+    margin-left: 25px;
+}
+
+#contenido-principal {
+    padding: 1em 15%;
+}
+
+#pie-pagina {
+    text-align: center;
+    padding: 20px 10%;
+    background-color: #A0C1D1;
+    color: black;
+    border-top-style: solid;
+    border-top-color: black;
     border-top-width: 4px;
- }
- div.poster {
-     display: inline-block;
-     width: 300px;
-     border-style: solid;
-    border-radius: 10%;
+}
+
+div.portadas {
+    display: inline-block;
+    width: 300px;
+    border-style: solid;
+    border-radius: 10px;
     border-color: black;
     border-width: 4px;
     margin: 20px;
     background-color: black;
-    }
+}
 
-    div.poster.rojo {
-        background-color: red;
-        border-color: crimson;
-    }
+div.portadas.rojo {
+    background-color: red;
+    border-color: crimson;
+}
 
-    div.poster#seleccionado, div.poster:hover {
-        border-color: #C97064;
-        color: #c97064;
-        transition: 0.5s;
-    }
+div.portadas#seleccionado, div.portadas:hover {
+    border-color: #C97064;
+    color: #C97064;
+    transition: 0.5s;
+}
 
-    div.poster h3 {
-        text-align: center;
-        padding: 0 15px;
-    }
+div.portadas h3 {
+    text-align: center;
+    padding: 0 15px;
+}
 
-    div.poster img {
-        width: 100%;
-    }
-
-    
+div.portadas img {
+    width: 100%;
+}
