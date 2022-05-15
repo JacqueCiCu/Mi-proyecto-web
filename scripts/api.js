@@ -7,7 +7,7 @@ fetch(url).then(function(response) {
 }).then(function(data) {
     console.log(data);
     for(let i = 0; i <data.length; i++) {
-        contenedor.innerHTML += "<div class='card'><div class='face front'><img src='" +uri + data[i]["imagen"] + "'><h3>" + data[i]["nombre"] + "</h3></div>" + "<div class='face back'>" + '<h3>' + data[i]["h3"] + data[i]["p"] + '</h3></div></div>';
+        contenedor.innerHTML += "<div class='card'><div class='face front'><img src='" +uri + data[i]["imagen"] + "'><h3>" + data[i]["nombre"] + "</h3></div>" + "<div class='face back'>" + "<div class='link'>" + '<h3>' + data[i]["h3"] + data[i]["p"] + '</h3></div></div></div>';
     }
 }).catch(function(error) { 
     console.log(error);
