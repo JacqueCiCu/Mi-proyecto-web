@@ -4,6 +4,13 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+.Interlinear {
+    line-height: 20px;
+    margin-top: 20px;
+}
+.TítuloEncabezado{
+    margin-bottom: 10px;
+}
 
 body {
     display: flex;
@@ -245,32 +252,18 @@ body {
     width: 100%;
     background-color: #d3bcf6;
     position: relative;
-    left: 0;
-}
-.pie-pagina .grupo-1{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: center;
-    padding: 45px 0px;
 }
 .pie-pagina .grupo-1 .box h2{
     color: #fff;
+    text-align: center;
     margin-bottom: 25px;
     font-size: 20px;
 }
-.pie-pagina .grupo-1 .box p{
-    color: #efefef;
-    margin-bottom: 10px;
-}
 .pie-pagina .grupo-1 .red-social a{
-    display: inline-block;
     text-decoration: none;
     width: 45px;
     height: 45px;
-    line-height: 45px;
     color: #fff;
-    margin-right: 10px;
     background-color: #d3bcf6;
     text-align: center;
     transition: all 300ms ease;
