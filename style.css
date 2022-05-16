@@ -265,14 +265,21 @@ body {
 }
 .pie-pagina .grupo-1 .red-social a{
     text-decoration: none;
-    width: 20%;
+    width: 10%;
     height: 20%;
-    margin-left: 40%;
-    margin-right: 40%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
     color: #fff;
     background-color: #d3bcf6;
     text-align: center;
     transition: all 300ms ease;
+    margin: auto;
+}
+#e1{
+    margin-left: 37.5%;
+}
+#e2{
+    margin-right: 37.5%;
 }
 .pie-pagina .grupo-1 .red-social a:hover{
     color: #55c;
