@@ -265,8 +265,10 @@ body {
 }
 .pie-pagina .grupo-1 .red-social a{
     text-decoration: none;
-    width: 45px;
-    height: 45px;
+    width: 20%;
+    height: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
     color: #fff;
     background-color: #d3bcf6;
     text-align: center;
